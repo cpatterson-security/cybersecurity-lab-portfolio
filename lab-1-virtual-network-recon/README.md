@@ -28,3 +28,25 @@ The objective of this lab was to configure a virtual network environment, perfor
 
 ## Screenshots
 (Add screenshots here later showing the scan results and SSH connection)
+
+## Steps Performed
+(steps list)
+
+## Evidence
+
+### IP Address Verification
+![IP Address](01-ip-address.png)
+
+### Nmap Service Detection Scan
+![Nmap Scan](02-nmap-scan.png)
+
+### SSH Login Verification
+![SSH Login](03-ssh-login.png)
+
+## Key Skills Demonstrated
+- Virtual network configuration using VirtualBox
+- Network reconnaissance and host discovery
+- Service enumeration using Nmap
+- Identification of exposed SSH services
+- Secure remote access using SSH
+- Basic attacker/target lab architecture setup
