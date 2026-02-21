@@ -36,3 +36,26 @@ Build a virtual penetration-testing lab using Kali Linux and Ubuntu Server and p
 Detailed documentation and screenshots for this lab are available in the Lab 1 folder:
 
 [View Lab 1 — Virtual Network Reconnaissance and SSH Access](lab-1-virtual-network-recon/README.md)
+
+
+---
+
+## Lab 2 — Service Enumeration
+
+### Objective
+Perform service enumeration on discovered hosts to identify exposed network services such as FTP and SMB.
+
+### Tools Used
+- Nmap
+- Nmap Scripting Engine (NSE)
+
+### Key Findings
+- FTP service detected on port 21
+- SMB service detected on ports 139/445
+- Enumeration revealed accessible system services
+
+### Evidence
+
+Detailed documentation and screenshots for this lab are available in the Lab 2 folder:
+
+[View Lab 2 — Service Enumeration](lab-2-service-enumeration/README.md)
