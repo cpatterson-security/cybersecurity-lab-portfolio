@@ -31,5 +31,8 @@ Build a virtual penetration-testing lab using Kali Linux and Ubuntu Server and p
 - SSH service detected on port 22
 - Remote login successfully validated
 
-### Evidence
-(Screenshots will be uploaded in the lab-1 folder)
+## Evidence
+
+Detailed documentation and screenshots for this lab are available in the Lab 1 folder:
+
+[View Lab 1 — Virtual Network Reconnaissance and SSH Access](lab-1-virtual-network-recon/README.md)
