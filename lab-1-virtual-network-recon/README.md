@@ -10,27 +10,31 @@ The objective of this lab was to configure a virtual network environment, perfor
 - Network Configuration: NAT + Host-Only Adapter
 
 ## Tools Used
+
 - Nmap
+- Nmap Scripting Engine (NSE)
 - SSH
-- Linux networking utilities
+- Linux networking utilities (ip, ping)
+- FTP enumeration scripts
+- SMB enumeration scripts
 
 ## Steps Performed
-1. Configured virtual networking between Kali Linux and Ubuntu target machine.
-2. Verified connectivity using `ip a`.
-3. Conducted service detection scan using Nmap.
-4. Identified open SSH service on the target system.
-5. Successfully established SSH connection from Kali Linux to the Ubuntu server.
+
+1. Configured virtual networking between Kali Linux and the Ubuntu target machine.
+2. Verified network connectivity using `ip a` and `ping`.
+3. Conducted SYN and service version scan using Nmap.
+4. Performed FTP service enumeration using Nmap NSE scripts.
+5. Performed SMB user enumeration on ports 139 and 445.
+6. Identified open SSH service on the target system.
+7. Successfully established SSH connection from Kali Linux to the Ubuntu server.
 
 ## Key Findings
+
 - Target host was successfully discovered on the network.
-- Port 22 (SSH) was open and accessible.
-- Secure remote access was successfully established.
-
-## Screenshots
-(Add screenshots here later showing the scan results and SSH connection)
-
-## Steps Performed
-(steps list)
+- Multiple open ports were identified including FTP (21), SMB (139/445), and SSH (22).
+- SMB enumeration revealed valid system user accounts on the target machine.
+- FTP service responded to enumeration attempts, indicating potential for further analysis.
+- Secure remote access via SSH was successfully established.
 
 ## Evidence
 
@@ -42,6 +46,15 @@ The objective of this lab was to configure a virtual network environment, perfor
 
 ### SSH Login Verification
 ![SSH Login](03-ssh-login.png)
+
+### SYN Service Version Scan
+![SYN Scan](evidence/01-nmap-syn-service-scan.png)
+
+### FTP Service Enumeration
+![FTP Enumeration](evidence/02-ftp-service-enumeration.png)
+
+### SMB User Enumeration
+![SMB Enumeration](evidence/03-smb-enumeration.png)
 
 ## Key Skills Demonstrated
 - Virtual network configuration using VirtualBox
