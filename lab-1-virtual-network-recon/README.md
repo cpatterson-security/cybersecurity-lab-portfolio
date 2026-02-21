@@ -42,15 +42,11 @@ The objective of this lab was to configure a virtual network environment, perfor
 
 ## Evidence
 
-### IP Address Verification
-![IP Address](01-ip-address.png)
+![IP Address](evidence/01-ip-address.png)
 
-### Nmap Service Detection Scan
-![Nmap Scan](02-nmap-scan.png)
+![Nmap Scan](evidence/02-nmap-scan.png)
 
-### SSH Login Verification
-![SSH Login](03-ssh-login.png)
-
+![SSH Login](evidence/03-ssh-login.png)
 ---
 
 ## Key Skills Demonstrated
